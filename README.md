@@ -19,8 +19,8 @@ This repository contains scripts used to analyze all project data, which were ru
 
 This repository also contains much of the necessary raw data to run the scripts. Raw reads were deposited in the NCBI SRA. Some of the code will need to be modified to import csv files from local directories instead of from Google Sheets. 
 
-1. clsm data?
-2. water quality data
-3. qPCR data
-4. id2code
-5.
+1. ARProject_arbf_data.csv -- Main data spreadsheet for water quality data
+2. ARProject_qPCR_data -- Data spreadsheet with raw qPCR data
+3. ARProject_clsm_file_key -- List of files used for CLSM analysis including metadata columns to help read in raw data. The raw .czi files were too large to be provided but can be provided upon request: hannahghealy@gmail.com.
+4. ARProject_id2code -- Key to translate sample names across versions
+5. ARProject_binnames -- Key to translate bin names across versions
