@@ -9,11 +9,11 @@ This repository contains scripts used to analyze all project data, which were ru
 
 3. ARProject_metagenomics_scripts_notebook.ipynb -- This notebook contains or generates code for metagenomics commands at the command line, beginning with read processing and ending with MAG gneration through Anvi'o. The notebook is a rough documentation of what was run for preliminary processing.
 
-4. MASH -- coming soon
+4. ARProject_MASH_analysis.ipynb -- R code to process and plot MASH distances of metagenomic reads.
 
-5. python script for SCG
+5. ARProject_scg_taxonomy.ipynb -- Python script for SCG, must be run before the corresponding scg R script.
 
-5. ARPROJECT_RPS2_SCG_ANALYSIS.ipynb -- R code to analyze taxonomy using the single copy gene RPS2. Must run the python script for SCG analysis first to generate the data csv. 
+5. ARProject_RPS2_scg_analysis.ipynb -- R code to analyze taxonomy using the single copy gene RPS2. Must run the python script for SCG analysis first to generate the data csv. 
 
 6. ARProject_MAG_analysis.ipynb -- R script for final analysis and figure generation for MAG coverage and KEGG functional pathways
 
@@ -22,4 +22,5 @@ This repository also contains much of the necessary raw data to run the scripts.
 1. clsm data?
 2. water quality data
 3. qPCR data
-4. 
+4. id2code
+5.
