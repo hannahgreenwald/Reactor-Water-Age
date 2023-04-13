@@ -11,7 +11,9 @@ This repository contains scripts used to analyze all project data, which were ru
 
 4. MASH -- coming soon
 
-5. SCG -- coming soon
+5. python script for SCG
+
+5. ARPROJECT_RPS2_SCG_ANALYSIS.ipynb -- R code to analyze taxonomy using the single copy gene RPS2. Must run the python script for SCG analysis first to generate the data csv. 
 
 6. ARProject_MAG_analysis.ipynb -- R script for final analysis and figure generation for MAG coverage and KEGG functional pathways
 
